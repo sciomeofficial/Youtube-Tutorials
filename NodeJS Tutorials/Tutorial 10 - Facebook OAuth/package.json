@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "~4.12.3",
+    "express": "~4.16.0",
     "morgan": "~1.5.2",
     "cookie-parser": "latest",
     "express-session": "latest",
