@@ -19,6 +19,12 @@
     "bcrypt": "~0.8.1",
     "passport-facebook": "~2.0.0",
     "passport-google-oauth": "~0.2.0",
-    "connect-mongo": "~0.8.0"
-  }
+    "connect-mongo": "~0.8.0",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
