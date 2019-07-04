@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "morgan": "~1.5.2",
     "cookie-parser": "latest",
     "express-session": "latest",
-    "mongoose": "latest"
-  }
+    "mongoose": "latest",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
