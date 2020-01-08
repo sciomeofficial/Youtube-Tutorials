@@ -10,7 +10,7 @@
     "morgan": "~1.5.2",
     "cookie-parser": "latest",
     "express-session": "latest",
-    "mongoose": "latest",
+    "mongoose": "5.7.5",
     "ejs": "latest",
     "body-parser": "latest",
     "passport": "~0.2.1",
