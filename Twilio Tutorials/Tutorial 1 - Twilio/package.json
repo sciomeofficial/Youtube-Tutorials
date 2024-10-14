@@ -12,7 +12,7 @@
     "connect-mongo": "~0.8.0",
     "cookie-parser": "latest",
     "ejs": "latest",
-    "express": "~4.12.3",
+    "express": "~4.21.1",
     "express-session": "latest",
     "mongoose": "latest",
     "morgan": "~1.5.2",
